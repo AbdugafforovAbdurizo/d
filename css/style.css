@@ -1,0 +1,119 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ ul {
+   list-style: none;
+ }
+
+ a {
+   text-decoration: none;
+   color: inherit;
+ }
+
+ img {
+   max-width: 100%;
+ }
+
+ body {
+   font-family: 'Inter';
+   background: #E5E5E5;
+ }
+
+ button {
+   cursor: pointer;
+   border: none;
+ }
+
+ .container {
+   max-width: 1170px;
+   margin: 0 auto;
+   /* overflow: hidden; */
+ }
+
+ /* header star */
+ .navbar-brand {
+   margin-right: 100px;
+ }
+
+ /* header end */
+
+ /* sec_luxurycar start */
+  .bag_fon {
+   position: absolute;
+   top: 60px;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   /* z-index: 99; */
+ }
+
+ .fon_1 {
+   background: url(../img/bg1.jpg);
+   background-size: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+ }
+
+ .search {
+   display: flex;
+   justify-content: center;
+ }
+
+ .serch_content {
+   /* position: relative; */
+   width: 570px;
+ }
+
+ .search input {
+   border-radius: 60px;
+   padding: 5px 75px 0 25px;
+   width: 100%;
+   height: 60px;
+   outline: none;
+   border: solid 1px #f2f2f2;
+ }
+
+ .icon_serch {
+   /* position: absolute; */
+   /* top: 10px; */
+   /* right: 5px; */
+   width: 40px;
+   height: 40px;
+   background: #BB2A2A;
+   border-radius: 50px;
+   transition: .3s;
+ }
+
+ .icon_serch:hover {
+   background: #cd3e3e;
+ }
+
+ .luxurycar {
+   width: 500px;
+   /* padding-top: 45px; */
+   position: absolute;
+   top: 370px;
+   left: 100px;
+   /* bottom: 130px; */
+ }
+
+ .luxurycar h1 {
+   font-style: normal;
+   font-weight: 800;
+   font-size: 48px !important;
+   line-height: 60px;
+
+ }
+
+
+ /* sec_luxurycar end */
+ .sec{
+   height: 100vh;
+   background: #BB2A2A
+ }
